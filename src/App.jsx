@@ -42,7 +42,7 @@ export default function App() {
       }
     }
 
-    if (count === 9) {
+    if (count === 8) {
         gameWinner.current.innerHTML = "It's a tie"
         setLock(true)
     }
