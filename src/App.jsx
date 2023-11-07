@@ -41,6 +41,11 @@ export default function App() {
         return
       }
     }
+
+    if (count === 9) {
+        gameWinner.current.innerHTML = "It's a tie"
+        setLock(true)
+    }
   }
 
   const won = (winner) => {
